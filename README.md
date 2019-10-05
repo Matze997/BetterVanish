@@ -1,2 +1,8 @@
 # BetterVanish
 The best Vanish Plugin Ever for PocketMine!
+
+**Features**
+
+- No items in hand can be seen
+- Edit all Commands and Messages in the config!
+- And a lot of love by making this plugin ;D
