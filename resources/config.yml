@@ -1,0 +1,15 @@
+#Plugin and Config made by MatzeLP
+
+#Command Settings:
+
+Command: "vanish"
+Description: "Vanish Command"
+Usage: "/vanish"
+Aliase: ["v", "van"]
+Permission: "vanish.use"
+
+#Messages
+
+vanish.on: "You are now Invisible"
+vanish.off:  "You are now Visible"
+
