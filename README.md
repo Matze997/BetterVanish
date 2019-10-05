@@ -1,5 +1,5 @@
 # BetterVanish
-The best Vanish Plugin Ever for PocketMine!
+The best Vanish Plugin ever for PocketMine!
 
 **Features**
 
