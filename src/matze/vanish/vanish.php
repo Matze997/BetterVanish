@@ -15,6 +15,6 @@ class vanish extends PluginBase implements Listener{
         @mkdir($this->getDataFolder());
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getServer()->getPluginManager()->registerEvents(new Events($this), $this);
-        $this->getServer()->getCommandMap()->register("vanish", new VanishCommand($this));
+        $this->getServer()->getCommandMap()->register("BetterVanish", new VanishCommand($this));
     }
 }
