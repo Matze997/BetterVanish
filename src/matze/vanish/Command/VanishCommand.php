@@ -29,7 +29,6 @@ class VanishCommand extends Command{
                     }
                     $this->plugin->vanish[$sender->getName()] = true;
 
-                    var_dump($this->plugin->vanish[$sender->getName()]);
                 } else {
                     $sender->sendMessage($cfg->get("vanish.off"));
                     foreach ($this->plugin->getServer()->getOnlinePlayers() as $onlinePlayer){
@@ -38,7 +37,6 @@ class VanishCommand extends Command{
 
                     $this->plugin->vanish[$sender->getName()] = false;
 
-                    var_dump($this->plugin->vanish[$sender->getName()]);
                 }
             }
         }
