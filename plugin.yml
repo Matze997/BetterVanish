@@ -1,4 +1,4 @@
 name: BetterVanish
 version: 1.0
-api: 3.0.0, 3.9.0
+api: 3.0.0, 3.8.0
 main: matze\vanish\vanish
