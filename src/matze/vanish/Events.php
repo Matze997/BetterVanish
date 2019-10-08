@@ -19,14 +19,10 @@ class Events implements Listener{
         $player = $event->getPlayer();
         $this->plugin->vanish[$player->getName()] = false;
         $this->plugin->getScheduler()->scheduleDelayedTask(new VanishScheduler($this->plugin, $player->getPlayer()), 1);
-
-        var_dump($this->plugin->vanish[$player->getName()]);
     }
 
     function onQuit(PlayerQuitEvent $event){
         $player = $event->getPlayer();
         $this->plugin->vanish[$player->getName()] = false;
-
-        var_dump($this->plugin->vanish[$player->getName()]);
     }
 }
